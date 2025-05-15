@@ -1,0 +1,40 @@
+<!-- File: display-camera.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camera Info</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 2rem;
+        background: #f0f0f0;
+      }
+      .camera {
+        background: white;
+        padding: 1rem;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .camera img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        margin: 0.5rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="camera-display"></div>
+
+    <script type="module" src="./showCamera.js"></script>
+  </body>
+</html>
