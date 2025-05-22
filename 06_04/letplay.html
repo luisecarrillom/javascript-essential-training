@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Let Scope Example</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+      }
+
+      .title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+
+      .row {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .color-block {
+        width: 200px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    </style>
+    <script src="letscope.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Let keeps things local!</h1>
+    <div class="row">
+      <div class="color-block box1">Default</div>
+      <div class="color-block box2">Default</div>
+    </div>
+  </body>
+</html>
