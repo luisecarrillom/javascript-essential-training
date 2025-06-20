@@ -25,7 +25,7 @@ const Card = ({ id, title, image, onImageClick }) => {
   );
 };
 
-// Prop validation
+// Prop validations 
 Card.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
