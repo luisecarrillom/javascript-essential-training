@@ -1,5 +1,5 @@
 /**
- * Sample list of gadgets
+ * Sample list of gadgets 
  */
 import Gadget from "./Gadget.js";
 

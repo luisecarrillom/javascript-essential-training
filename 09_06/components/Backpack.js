@@ -1,4 +1,4 @@
-// Set up the Backpack class
+// Set up the Backpack class 
 class Backpack {
   constructor(
     id,
