@@ -19,7 +19,7 @@ const emphasizeDescription = function () {
 };
 emphasizeDescription();
 
-// Arrow Function: Add click event to button 
+// Arrow Function: Add click event to button  
 const activateButton = () => {
   const button = document.querySelector("#actionBtn");
   button.addEventListener("click", () => {
